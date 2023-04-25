@@ -1,0 +1,16 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+
+
+```{r}
+library(wosr)
+```
+
+```{r}
+sid <- auth("juho.paakkonen@helsinki.fi", "")
+q <- query_wos("'big data'", editions=c('SSCI'))
+```
+
